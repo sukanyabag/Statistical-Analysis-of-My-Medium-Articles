@@ -185,7 +185,7 @@ def login_to_medium(driver, email, password):
         #export data as csv to the local machine
         df = extract_info(driver)
         show_info(df)
-        df.to_csv('Sukanya_Writer_Stats.csv', index= False)
+        df.to_csv('mywriterstats.csv', index= False)
         print("Your writer stats at Medium is created and saved in Sukanya_Writer_Stats.csv!")
         
         
